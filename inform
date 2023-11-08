@@ -1,0 +1,6 @@
+
+npx typeorm migration:create <path>
+
+npx typeorm migration:run -d dist/typeorm-cli.config
+
+npx typeorm migration:revert -d dist/typeorm-cli.config
